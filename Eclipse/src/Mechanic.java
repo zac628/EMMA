@@ -1,4 +1,4 @@
 
-public class Mechanik {
+public class Mechaniks {
 	
 }
