@@ -38,6 +38,10 @@ public class WorkOrder {
 		orderNumber = ++count;
 	}
 	
+	public int getOrderNumber(){
+		return orderNumber;
+	}
+	
 	public void assignWorkOrder(Mechanic m){
 		//Remove this workorder from the list of workorders in the database after assigning it to a mechanic
 		 m.addWorkOrder(orderNumber);
