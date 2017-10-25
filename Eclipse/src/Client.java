@@ -1,5 +1,5 @@
 import java.util.*;
-//This is a test
+
 public class Client{
 	private String name;
 	private String phoneNumber;
@@ -118,12 +118,16 @@ public Car getCar(String license){
 		if(cars[i].getLicense().equals(license))
 			return cars[i];
 	}
+	System.out.println("Error: Car not found.");
+	return null;
 }
 
 public WorkOrder getWorkOrder(int number){
 	for(int i = 0; i < 10; i++){
-		if(workOrders[i].getNumber() == number)
+		if(workOrders[i].getOrderNumber() == number)
 			return workOrders[i];
 	}
+	System.out.println("Error: Work order not found.");
+	return null;
 }
 }
