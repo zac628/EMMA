@@ -3,6 +3,8 @@ import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
+import javax.swing.JFrame;
+
 public class Main {
 
 	/**
@@ -28,6 +30,15 @@ public class Main {
     
     public static void main(String args[]){
     	createNewDatabase("test.db");
+    	Login_VC();
     }
-		
+    public static void Login_VC()
+	{
+	JFrame frame = new JFrame("EMMA");
+	frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	LoginWindow panel = new LoginWindow();
+	frame.getContentPane().add(panel);
+	frame.pack();
+	frame.setVisible(true);
+	}	
 }
