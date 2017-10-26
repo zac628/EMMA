@@ -211,3 +211,175 @@ Binding(ALT+COMMAND+R,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2017-10-24 23:56:10.408 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Zach/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Zach/.eclipse_keyring
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-24 23:56:15.145
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-24 23:56:15.146
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-24 23:56:15.156
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.arduino.core.descriptorType
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-24 23:56:16.547
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2017-10-24 23:56:18.081
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-24 23:56:18.081
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@155cf9f6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@b7b26c6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2017-10-25 00:06:42.903 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Zach/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Zach/.eclipse_keyring
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-25 00:06:48.146
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-25 00:06:48.147
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-25 00:06:48.154
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.arduino.core.descriptorType
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-25 00:06:49.370
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2017-10-25 00:06:50.765
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-25 00:06:50.765
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@409b1740,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@32dc895e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2017-10-25 14:35:08.228 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Zach/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Zach/.eclipse_keyring
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-25 14:35:18.457
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-25 14:35:18.458
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-25 14:35:18.468
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.arduino.core.descriptorType
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-25 14:35:19.846
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2017-10-25 14:35:21.408
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-25 14:35:21.408
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51751265,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7f59f4e4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+!SESSION 2017-10-25 14:37:14.631 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160907-1200
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/Zach/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/Zach/.eclipse_keyring
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-25 14:37:29.576
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-25 14:37:29.577
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2017-10-25 14:37:29.586
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.arduino.core.descriptorType
+
+!ENTRY org.eclipse.core.net 1 0 2017-10-25 14:37:30.475
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2017-10-25 14:37:31.332
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2017-10-25 14:37:31.332
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.python.pydev.debug.setnext,Set Next Statement,
+		,
+		Category(org.python.pydev.ui.category.run,PyDev - Run,Python run category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@455591ad,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@13157620,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-25 17:50:13.384
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-25 17:50:13.386
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-25 18:02:49.980
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-25 18:02:49.980
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
