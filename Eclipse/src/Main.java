@@ -29,8 +29,10 @@ public class Main {
     }
     
     public static void main(String args[]){
-    	createNewDatabase("test.db");
-    	Login_VC();
+    	//createNewDatabase("test.db");
+    	//Login_VC();
+    	Car testcar = new Car("type","make","model",2016,"ABC 123");
+    	System.out.print(testcar.getClassification()+" "+testcar.getMake()+" "+testcar.getModel()+" "+testcar.getYear()+" "+testcar.getLicense());
     }
     public static void Login_VC()
 	{
