@@ -57,8 +57,9 @@ public void addCar(){
 	String model = new String(scan.nextLine());
 	System.out.print("Year: ");
 	year = scan.nextInt();
-	System.out.print("\nLicense Plate Number: ");
+	System.out.print("License Plate Number: ");
 	String license = new String(scan.nextLine());
+	System.out.println();
 	
 	Car car = new Car(type, make, model, year, license);
 	

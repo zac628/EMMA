@@ -5,7 +5,7 @@ public class WorkOrder {
 	private Client client;
 	private String orderDescription;
 	private int orderNumber;
-	private static int count;
+	private static int count = 0;
 
 	
 	public WorkOrder(Client cl, Car c){

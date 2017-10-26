@@ -29,8 +29,7 @@ public class Main {
     }
     
     public static void main(String args[]){
-    	createNewDatabase("test.db");
-    	Login_VC();
+    	
     }
     public static void Login_VC()
 	{
