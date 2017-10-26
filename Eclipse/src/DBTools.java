@@ -37,7 +37,7 @@ public class DBTools {
 	    	 // SQLite connection string
 	        try (Connection conn = DriverManager.getConnection(url);
 	                Statement stmt = conn.createStatement()) {
-	        	System.out.println("Connection to SQLite has been established.");
+	        	System.out.println("\nConnection to SQLite has been established.\n");
 	            // create a new table
 	            stmt.execute(sql);
 	        } catch (SQLException e) {
