@@ -1,8 +1,3 @@
-import java.sql.Connection;
-import java.sql.DatabaseMetaData;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-
 import javax.swing.JFrame;
 
 public class Main {
@@ -12,28 +7,19 @@ public class Main {
      *
      * @param fileName the database file name
      */
-    public static void createNewDatabase(String fileName) {
- 
-       String url = "jdbc:sqlite:" + fileName;
- 
-        try (Connection conn = DriverManager.getConnection(url)) {
-            if (conn != null) {
-                DatabaseMetaData meta = conn.getMetaData();
-                System.out.println("The driver name is " + meta.getDriverName());
-                System.out.println("A new database has been created.");
-            }
- 
-        } catch (SQLException e) {
-            System.out.println(e.getMessage());
-        }
-    }
     
     public static void main(String args[]){
-    	//createNewDatabase("test.db");
-    	//Login_VC();
-    	Car testcar = new Car("type","make","model",2016,"ABC 123");
-    	System.out.print(testcar.getClassification()+" "+testcar.getMake()+" "+testcar.getModel()+" "+testcar.getYear()+" "+testcar.getLicense());
+    	DBTools.createNewTable("CREATE TABLE IF NOT EXISTS User (\n"
+        		+ " Username text NOT NULL,\n"
+                + "	Password text NOT NULL\n"
+                + ");");
+    	DBTools.insert("abc", "abc");
+    	Login_VC();
+    	//Car testcar = new Car("type","make","model",2016,"ABC 123");
+    	//System.out.print(testcar.getClassification()+" "+testcar.getMake()+" "+testcar.getModel()+" "+testcar.getYear()+" "+testcar.getLicense());
     }
+   
+    
     public static void Login_VC()
 	{
 	JFrame frame = new JFrame("EMMA");
