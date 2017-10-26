@@ -44,7 +44,7 @@ public class WorkOrder {
 	
 	public void assignWorkOrder(Mechanic m){
 		//Remove this workorder from the list of workorders in the database after assigning it to a mechanic
-		 m.addWorkOrder(orderNumber);
+		 m.addOrder(orderNumber);
 	}
 	public void removeWorkOrder(Mechanic m){
 		
