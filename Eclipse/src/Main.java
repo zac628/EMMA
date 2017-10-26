@@ -9,6 +9,9 @@ public class Main {
      */
     
     public static void main(String args[]){
+    	//Tests Login credentials against database successfully!
+    	
+    	//new SQL table named User in the database with fields Username and Password of type text
     	DBTools.createNewTable("CREATE TABLE IF NOT EXISTS User (\n"
         		+ " Username text NOT NULL,\n"
                 + "	Password text NOT NULL\n"
